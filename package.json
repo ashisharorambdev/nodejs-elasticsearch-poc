@@ -1,0 +1,14 @@
+{
+  "name": "node-elasticsearch-crud",
+  "version": "1.0.0",
+  "description": "A Node.js project with Elasticsearch integration",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.4.0",
+    "body-parser": "^1.19.1",
+    "express": "^4.17.1"
+  }
+}
